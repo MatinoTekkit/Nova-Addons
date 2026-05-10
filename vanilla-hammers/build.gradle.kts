@@ -16,4 +16,8 @@ pluginPublish {
         gameVersions(libs.versions.minecraft.get())
         requiredDependency("Nova")
     }
+    modrinth("pRwXHVLN") {
+        gameVersions(libs.versions.minecraft.get())
+        requiredDependency("yCVqpwUy") // Nova
+    }
 }

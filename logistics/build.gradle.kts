@@ -22,4 +22,9 @@ pluginPublish {
         requiredDependency("Nova")
         requiredDependency("Simple-Upgrades")
     }
+    modrinth("YsED8eqt") {
+        gameVersions(libs.versions.minecraft.get())
+        requiredDependency("yCVqpwUy") // Nova
+        requiredDependency("uUuVhtJ7") // Simple-Upgrades
+    }
 }
