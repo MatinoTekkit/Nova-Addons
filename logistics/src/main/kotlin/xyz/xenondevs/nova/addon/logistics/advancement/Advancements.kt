@@ -3,7 +3,7 @@ package xyz.xenondevs.nova.addon.logistics.advancement
 import net.kyori.adventure.text.Component
 import net.minecraft.advancements.AdvancementType
 import net.minecraft.advancements.DisplayInfo
-import net.minecraft.advancements.criterion.PlayerTrigger
+import net.minecraft.advancements.triggers.PlayerTrigger
 import net.minecraft.core.ClientAsset
 import net.minecraft.resources.Identifier
 import xyz.xenondevs.nova.addon.logistics.Logistics
