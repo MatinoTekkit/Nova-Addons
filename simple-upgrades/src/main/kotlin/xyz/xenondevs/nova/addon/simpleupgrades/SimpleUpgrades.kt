@@ -5,6 +5,9 @@ import xyz.xenondevs.nova.update.ProjectDistributor
 
 object SimpleUpgrades : Addon() {
     
-    override val projectDistributors = listOf(ProjectDistributor.hangar("xenondevs/Simple-Upgrades"))
+    override val projectDistributors = listOf(
+        ProjectDistributor.modrinth("nova-simple-upgrades"),
+        ProjectDistributor.hangar("xenondevs/Simple-Upgrades")
+    )
     
 }

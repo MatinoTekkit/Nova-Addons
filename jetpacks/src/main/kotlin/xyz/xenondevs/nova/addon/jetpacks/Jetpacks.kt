@@ -5,6 +5,9 @@ import xyz.xenondevs.nova.update.ProjectDistributor
 
 object Jetpacks : Addon() {
     
-    override val projectDistributors = listOf(ProjectDistributor.hangar("xenondevs/Jetpacks"))
+    override val projectDistributors = listOf(
+        ProjectDistributor.modrinth("nova-jetpacks"),
+        ProjectDistributor.hangar("xenondevs/Jetpacks")
+    )
     
 }

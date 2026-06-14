@@ -5,6 +5,9 @@ import xyz.xenondevs.nova.update.ProjectDistributor
 
 object VanillaHammers : Addon() {
     
-    override val projectDistributors = listOf(ProjectDistributor.hangar("xenondevs/Vanilla-Hammers"))
+    override val projectDistributors = listOf(
+        ProjectDistributor.modrinth("nova-vanilla-hammers"),
+        ProjectDistributor.hangar("xenondevs/Vanilla-Hammers")
+    )
     
 }
